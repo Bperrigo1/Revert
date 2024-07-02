@@ -1,6 +1,6 @@
 :root{
-    --primary-color: #1d5888;
-    --secondary-color: #ff993b;
+    --primary-color: #000000;
+    --secondary-color: #ff0000;
     --dark-color: #292929;
     --white-color: #e7e7e7;
 }
@@ -35,7 +35,7 @@ footer .social>a:hover{
     color: var(--secondary-color)
 }
 .bsicon{
-    color:purple;
+    color: purple;
 }
 .jsicon{
     color:yellow;
@@ -49,7 +49,7 @@ footer .social>a:hover{
 }
 
 .checklist >li i{
-    color: purple;
+    color: var(--secondary-color);
 }
 
 code[class*="language-"],
